@@ -9,6 +9,7 @@ names = ["/HB/1138_bus", "/HB/494_bus", "/HB/662_bus", "/HB/685_bus", "/HB/abb31
 d = [{}, {}]
 for name in names:
     try:
+        #name = "/HB/arc130"
         print("name = ", name)
 
         arq_name = name[name.rindex("/")+1:]
@@ -31,7 +32,7 @@ for name in names:
         d[simetrica][arq_name] = [tempo_final -
                                   tempo_inicial, larguraInicial, largura, reducao]
 
-        a = input()
+        #a = input()
     except Exception as ex:
         print(ex)
 print("\n\n\n-------------RESULTADOS-------------\n")

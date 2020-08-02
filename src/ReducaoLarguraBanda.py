@@ -37,11 +37,11 @@ class ReducaoLarguraBanda:
             Objeto da classe NetworkX que representa um grafo
         """
         matriz = mmread(nome + ".mtx")
-        grafo = nx.from_scipy_sparse_matrix(matriz)
 
-        simetrica = ReducaoLarguraBanda.ehSimetrica(grafo)
-        #if (not simetrica):
-            #matriz += matriz.transpose()
+        simetrica = ReducaoLarguraBanda.ehSimetrica(matriz)
+        if (not simetrica):
+            matriz += matriz.transpose()
+        # print(matriz)
 
         grafo = nx.from_scipy_sparse_matrix(matriz)
         return grafo, simetrica
@@ -62,8 +62,7 @@ class ReducaoLarguraBanda:
         return maior
 
     @staticmethod
-    def ehSimetrica(grafo):
-        a = nx.to_scipy_sparse_matrix(grafo)
+    def ehSimetrica(a):
         if a.shape[0] != a.shape[1]:
             raise Exception("Matriz não quadrada!")
         return np.allclose(a.A, (a.transpose()).A)
