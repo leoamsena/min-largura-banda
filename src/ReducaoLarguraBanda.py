@@ -22,29 +22,34 @@ class ReducaoLarguraBanda:
 
     """
 
-    def __init__(self, nome):
+    @staticmethod
+    def gerarGrafoNx(nome):
         """
         Parameters
         ----------
         nome: str
             Nome do arquivo .mkt que contem a matriz do grafo 
-            que se deseja reduzir a largura de banda
+            que se deseja inicializar um objeto da classe
+            da biblioteca NetworkX
+        Returns
+        -------
+        grafo
+            Objeto da classe NetworkX que representa um grafo
         """
-        matriz = mmread(nome+".mtx")
+        matriz = mmread(nome + ".mtx")
+        grafo = nx.from_scipy_sparse_matrix(matriz)
 
-        #self.grafo = csr_matrix(matriz_adj)
+        simetrica = ReducaoLarguraBanda.ehSimetrica(grafo)
+        #if (not simetrica):
+            #matriz += matriz.transpose()
 
-        if (not self.ehSimetrica(matriz)):
-            print("NAO E SIMETRICA")
-            matriz += matriz.transpose()
+        grafo = nx.from_scipy_sparse_matrix(matriz)
+        return grafo, simetrica
 
-        self.nxGrafo = nx.from_scipy_sparse_matrix(matriz)
-
-    def calcularLarguraBandaInicial(self):
-        return self.calcularLarguraBanda(nx.to_scipy_sparse_matrix(self.nxGrafo))
-
-    def calcularLarguraBanda(self, grafo):
-        naoZeros = grafo.nonzero()
+    @staticmethod
+    def calcularLarguraBanda(grafo):
+        matriz = nx.to_scipy_sparse_matrix(grafo)
+        naoZeros = matriz.nonzero()
         maior = -9999999999
         ultimaLinha = -1
         for i in range(len(naoZeros[0])):
@@ -56,23 +61,23 @@ class ReducaoLarguraBanda:
                     maior = larguraBandaLinha
         return maior
 
-    def ehSimetrica(self, a):
+    @staticmethod
+    def ehSimetrica(grafo):
+        a = nx.to_scipy_sparse_matrix(grafo)
         if a.shape[0] != a.shape[1]:
             raise Exception("Matriz não quadrada!")
         return np.allclose(a.A, (a.transpose()).A)
 
-    def salvarImagemAntes(self, nome):
-        self.salvarImagem(nx.to_scipy_sparse_matrix(
-            self.nxGrafo), nome, "before")
+    @staticmethod
+    def reverseCuthillMckee(grafo):
+        lista_permutacao = list(reverse_cuthill_mckee_ordering(
+            grafo))
+        return nx.Graph(nx.adjacency_matrix(grafo, nodelist=lista_permutacao))
 
-    def reverseCuthillMckee(self, framework="nx"):
-        if (framework == "nx"):
-            lista_permutacao = list(reverse_cuthill_mckee_ordering(
-                self.nxGrafo))
-            return nx.to_scipy_sparse_matrix(self.nxGrafo, nodelist=lista_permutacao)
-
-    def salvarImagem(self, grafo, nome, path):
-        plt.spy(grafo)
+    @staticmethod
+    def salvarImagem(grafo, nome, path):
+        matriz = nx.to_scipy_sparse_matrix(grafo)
+        plt.spy(matriz)
         plt.savefig(
-            "/home/leoamsena/UFLA-2020-1/CPA/trab 4//images/"+path+"/"+nome+".png")
+            path+"/"+nome+".png")
         plt.cla()
