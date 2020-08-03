@@ -45,6 +45,7 @@ class ReducaoLarguraBanda:
 
         grafo = nx.from_scipy_sparse_matrix(matriz)
         return grafo, simetrica
+    
 
     @staticmethod
     def calcularLarguraBanda(grafo):

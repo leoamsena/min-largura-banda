@@ -1,0 +1,410 @@
+name =  /HB/1138_bus
+Matriz simetrica? True
+Largura de banda incial: 1030
+tempo =  0.22598528861999512
+Largura de banda:  131
+name =  /HB/494_bus
+Matriz simetrica? True
+Largura de banda incial: 428
+tempo =  0.0878596305847168
+Largura de banda:  82
+name =  /HB/662_bus
+Matriz simetrica? True
+Largura de banda incial: 335
+tempo =  0.12107586860656738
+Largura de banda:  118
+name =  /HB/685_bus
+Matriz simetrica? True
+Largura de banda incial: 550
+tempo =  0.13936781883239746
+Largura de banda:  102
+name =  /HB/abb313
+Matriz não quadrada!
+name =  /HB/arc130
+Matriz simetrica? False
+Largura de banda incial: 125
+tempo =  0.05847430229187012
+Largura de banda:  102
+name =  /HB/ash219
+Matriz não quadrada!
+name =  /HB/ash292
+Matriz simetrica? True
+Largura de banda incial: 24
+tempo =  0.10360193252563477
+Largura de banda:  32
+name =  /HB/ash331
+Matriz não quadrada!
+name =  /HB/ash608
+Matriz não quadrada!
+name =  /HB/ash85
+Matriz simetrica? True
+Largura de banda incial: 39
+tempo =  0.024644851684570312
+Largura de banda:  13
+name =  /HB/ash958
+Matriz não quadrada!
+name =  /HB/bcspwr01
+Matriz simetrica? True
+Largura de banda incial: 38
+tempo =  0.009919881820678711
+Largura de banda:  6
+name =  /HB/bcspwr02
+Matriz simetrica? True
+Largura de banda incial: 34
+tempo =  0.01011347770690918
+Largura de banda:  13
+name =  /HB/bcspwr03
+Matriz simetrica? True
+Largura de banda incial: 115
+tempo =  0.039613962173461914
+Largura de banda:  17
+name =  /HB/bcspwr04
+Matriz simetrica? True
+Largura de banda incial: 265
+tempo =  0.06321954727172852
+Largura de banda:  50
+name =  /HB/bcspwr05
+Matriz simetrica? True
+Largura de banda incial: 435
+tempo =  0.08232665061950684
+Largura de banda:  67
+name =  /HB/bcspwr06
+Matriz simetrica? True
+Largura de banda incial: 1341
+tempo =  0.3382401466369629
+Largura de banda:  121
+name =  /HB/bcspwr07
+Matriz simetrica? True
+Largura de banda incial: 1487
+tempo =  0.3164656162261963
+Largura de banda:  141
+name =  /HB/bcspwr08
+Matriz simetrica? True
+Largura de banda incial: 1494
+tempo =  0.45084619522094727
+Largura de banda:  135
+name =  /HB/bcspwr09
+Matriz simetrica? True
+Largura de banda incial: 1663
+tempo =  0.39874958992004395
+Largura de banda:  133
+name =  /HB/bcspwr10
+Matriz simetrica? True
+Largura de banda incial: 5189
+tempo =  1.8012633323669434
+Largura de banda:  285
+name =  /HB/bcsstk01
+Matriz simetrica? True
+Largura de banda incial: 35
+tempo =  0.018724441528320312
+Largura de banda:  27
+name =  /HB/bcsstk02
+Matriz simetrica? True
+Largura de banda incial: 65
+tempo =  0.0902550220489502
+Largura de banda:  65
+name =  /HB/bcsstk04
+Matriz simetrica? True
+Largura de banda incial: 47
+tempo =  0.07639551162719727
+Largura de banda:  54
+name =  /HB/bcsstk05
+Matriz simetrica? True
+Largura de banda incial: 28
+tempo =  0.06243109703063965
+Largura de banda:  25
+name =  /HB/bcsstk06
+Matriz simetrica? True
+Largura de banda incial: 47
+tempo =  0.18939542770385742
+Largura de banda:  50
+name =  /HB/bcsstk07
+Matriz simetrica? True
+Largura de banda incial: 47
+tempo =  0.2670271396636963
+Largura de banda:  50
+name =  /HB/bcsstk09
+Matriz simetrica? True
+Largura de banda incial: 62
+tempo =  0.6207237243652344
+Largura de banda:  114
+name =  /HB/bcsstk13
+Matriz simetrica? True
+Largura de banda incial: 1250
+tempo =  2.0087366104125977
+Largura de banda:  546
+name =  /HB/bcsstk19
+Matriz simetrica? True
+Largura de banda incial: 567
+tempo =  0.27507591247558594
+Largura de banda:  22
+name =  /HB/bcsstk23
+Matriz simetrica? True
+Largura de banda incial: 449
+tempo =  1.1611461639404297
+Largura de banda:  422
+name =  /HB/bcsstk24
+Matriz simetrica? True
+Largura de banda incial: 3333
+tempo =  3.585216522216797
+Largura de banda:  251
+name =  /HB/bcsstk26
+Matriz simetrica? True
+Largura de banda incial: 233
+tempo =  0.7596678733825684
+Largura de banda:  245
+name =  /HB/bcsstk27
+Matriz simetrica? True
+Largura de banda incial: 56
+tempo =  1.1543769836425781
+Largura de banda:  66
+name =  /HB/bcsstk28
+Matriz simetrica? True
+Largura de banda incial: 524
+tempo =  4.395129680633545
+Largura de banda:  412
+name =  /HB/bcsstk30
+Unable to allocate 6.23 GiB for an array with shape (28924, 28924) and data type float64
+name =  /HB/bcsstk32
+Unable to allocate 14.8 GiB for an array with shape (44609, 44609) and data type float64
+name =  /HB/bcsstk33
+Matriz simetrica? True
+Largura de banda incial: 932
+tempo =  12.501104831695557
+Largura de banda:  748
+name =  /HB/bcsstm07
+Matriz simetrica? True
+Largura de banda incial: 47
+tempo =  0.29905128479003906
+Largura de banda:  55
+name =  /HB/bcsstm27
+Matriz simetrica? True
+Largura de banda incial: 56
+tempo =  1.378962516784668
+Largura de banda:  66
+name =  /HB/bp_0
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.2688567638397217
+Largura de banda:  420
+name =  /HB/bp_1000
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.35305142402648926
+Largura de banda:  479
+name =  /HB/bp_1200
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.3941929340362549
+Largura de banda:  549
+name =  /HB/bp_1400
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.3421475887298584
+Largura de banda:  547
+name =  /HB/bp_1600
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.38567066192626953
+Largura de banda:  539
+name =  /HB/bp_200
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.2682640552520752
+Largura de banda:  506
+name =  /HB/bp_400
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.30367255210876465
+Largura de banda:  530
+name =  /HB/bp_600
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.29464173316955566
+Largura de banda:  541
+name =  /HB/bp_800
+Matriz simetrica? False
+Largura de banda incial: 820
+tempo =  0.3157539367675781
+Largura de banda:  542
+name =  /HB/can_1054
+Matriz simetrica? True
+Largura de banda incial: 1030
+tempo =  0.3549003601074219
+Largura de banda:  123
+name =  /HB/can_1072
+Matriz simetrica? True
+Largura de banda incial: 1048
+tempo =  0.35854482650756836
+Largura de banda:  178
+name =  /HB/can_144
+Matriz simetrica? True
+Largura de banda incial: 142
+tempo =  0.04405498504638672
+Largura de banda:  18
+name =  /HB/can_161
+Matriz simetrica? True
+Largura de banda incial: 79
+tempo =  0.04837441444396973
+Largura de banda:  18
+name =  /HB/can_187
+Matriz simetrica? True
+Largura de banda incial: 63
+tempo =  0.05354595184326172
+Largura de banda:  23
+name =  /HB/can_229
+Matriz simetrica? True
+Largura de banda incial: 172
+tempo =  0.05751752853393555
+Largura de banda:  37
+name =  /HB/can_24
+Matriz simetrica? True
+Largura de banda incial: 21
+tempo =  0.0078125
+Largura de banda:  7
+name =  /HB/can_256
+Matriz simetrica? True
+Largura de banda incial: 251
+tempo =  0.08182382583618164
+Largura de banda:  123
+name =  /HB/can_268
+Matriz simetrica? True
+Largura de banda incial: 263
+tempo =  0.08271646499633789
+Largura de banda:  98
+
+
+
+-------------RESULTADOS-------------
+
+Simetricas: 
+          Tempo (s)  ...  Redução (%)
+1138_bus   0.225985  ...    87.281553
+494_bus    0.087860  ...    80.841121
+662_bus    0.121076  ...    64.776119
+685_bus    0.139368  ...    81.454545
+ash292     0.103602  ...   -33.333333
+ash85      0.024645  ...    66.666667
+bcspwr01   0.009920  ...    84.210526
+bcspwr02   0.010113  ...    61.764706
+bcspwr03   0.039614  ...    85.217391
+bcspwr04   0.063220  ...    81.132075
+bcspwr05   0.082327  ...    84.597701
+bcspwr06   0.338240  ...    90.976883
+bcspwr07   0.316466  ...    90.517821
+bcspwr08   0.450846  ...    90.963855
+bcspwr09   0.398750  ...    92.002405
+bcspwr10   1.801263  ...    94.507612
+bcsstk01   0.018724  ...    22.857143
+bcsstk02   0.090255  ...     0.000000
+bcsstk04   0.076396  ...   -14.893617
+bcsstk05   0.062431  ...    10.714286
+bcsstk06   0.189395  ...    -6.382979
+bcsstk07   0.267027  ...    -6.382979
+bcsstk09   0.620724  ...   -83.870968
+bcsstk13   2.008737  ...    56.320000
+bcsstk19   0.275076  ...    96.119929
+bcsstk23   1.161146  ...     6.013363
+bcsstk24   3.585217  ...    92.469247
+bcsstk26   0.759668  ...    -5.150215
+bcsstk27   1.154377  ...   -17.857143
+bcsstk28   4.395130  ...    21.374046
+bcsstk33  12.501105  ...    19.742489
+bcsstm07   0.299051  ...   -17.021277
+bcsstm27   1.378963  ...   -17.857143
+can_1054   0.354900  ...    88.058252
+can_1072   0.358545  ...    83.015267
+can_144    0.044055  ...    87.323944
+can_161    0.048374  ...    77.215190
+can_187    0.053546  ...    63.492063
+can_229    0.057518  ...    78.488372
+can_24     0.007812  ...    66.666667
+can_256    0.081824  ...    50.996016
+can_268    0.082716  ...    62.737643
+
+[42 rows x 4 columns]
+latex: 
+ \begin{tabular}{lrrrr}
+\toprule
+{} &  Tempo (s) &  Largura de banda Inicial &  Largura de banda final &  Redução (\%) \\
+\midrule
+1138\_bus &   0.225985 &                      1030 &                     131 &    87.281553 \\
+494\_bus  &   0.087860 &                       428 &                      82 &    80.841121 \\
+662\_bus  &   0.121076 &                       335 &                     118 &    64.776119 \\
+685\_bus  &   0.139368 &                       550 &                     102 &    81.454545 \\
+ash292   &   0.103602 &                        24 &                      32 &   -33.333333 \\
+ash85    &   0.024645 &                        39 &                      13 &    66.666667 \\
+bcspwr01 &   0.009920 &                        38 &                       6 &    84.210526 \\
+bcspwr02 &   0.010113 &                        34 &                      13 &    61.764706 \\
+bcspwr03 &   0.039614 &                       115 &                      17 &    85.217391 \\
+bcspwr04 &   0.063220 &                       265 &                      50 &    81.132075 \\
+bcspwr05 &   0.082327 &                       435 &                      67 &    84.597701 \\
+bcspwr06 &   0.338240 &                      1341 &                     121 &    90.976883 \\
+bcspwr07 &   0.316466 &                      1487 &                     141 &    90.517821 \\
+bcspwr08 &   0.450846 &                      1494 &                     135 &    90.963855 \\
+bcspwr09 &   0.398750 &                      1663 &                     133 &    92.002405 \\
+bcspwr10 &   1.801263 &                      5189 &                     285 &    94.507612 \\
+bcsstk01 &   0.018724 &                        35 &                      27 &    22.857143 \\
+bcsstk02 &   0.090255 &                        65 &                      65 &     0.000000 \\
+bcsstk04 &   0.076396 &                        47 &                      54 &   -14.893617 \\
+bcsstk05 &   0.062431 &                        28 &                      25 &    10.714286 \\
+bcsstk06 &   0.189395 &                        47 &                      50 &    -6.382979 \\
+bcsstk07 &   0.267027 &                        47 &                      50 &    -6.382979 \\
+bcsstk09 &   0.620724 &                        62 &                     114 &   -83.870968 \\
+bcsstk13 &   2.008737 &                      1250 &                     546 &    56.320000 \\
+bcsstk19 &   0.275076 &                       567 &                      22 &    96.119929 \\
+bcsstk23 &   1.161146 &                       449 &                     422 &     6.013363 \\
+bcsstk24 &   3.585217 &                      3333 &                     251 &    92.469247 \\
+bcsstk26 &   0.759668 &                       233 &                     245 &    -5.150215 \\
+bcsstk27 &   1.154377 &                        56 &                      66 &   -17.857143 \\
+bcsstk28 &   4.395130 &                       524 &                     412 &    21.374046 \\
+bcsstk33 &  12.501105 &                       932 &                     748 &    19.742489 \\
+bcsstm07 &   0.299051 &                        47 &                      55 &   -17.021277 \\
+bcsstm27 &   1.378963 &                        56 &                      66 &   -17.857143 \\
+can\_1054 &   0.354900 &                      1030 &                     123 &    88.058252 \\
+can\_1072 &   0.358545 &                      1048 &                     178 &    83.015267 \\
+can\_144  &   0.044055 &                       142 &                      18 &    87.323944 \\
+can\_161  &   0.048374 &                        79 &                      18 &    77.215190 \\
+can\_187  &   0.053546 &                        63 &                      23 &    63.492063 \\
+can\_229  &   0.057518 &                       172 &                      37 &    78.488372 \\
+can\_24   &   0.007812 &                        21 &                       7 &    66.666667 \\
+can\_256  &   0.081824 &                       251 &                     123 &    50.996016 \\
+can\_268  &   0.082716 &                       263 &                      98 &    62.737643 \\
+\bottomrule
+\end{tabular}
+ 
+
+\n
+
+Asimetricas: 
+         Tempo (s)  ...  Redução (%)
+arc130    0.058474  ...    18.400000
+bp_0      0.268857  ...    48.780488
+bp_1000   0.353051  ...    41.585366
+bp_1200   0.394193  ...    33.048780
+bp_1400   0.342148  ...    33.292683
+bp_1600   0.385671  ...    34.268293
+bp_200    0.268264  ...    38.292683
+bp_400    0.303673  ...    35.365854
+bp_600    0.294642  ...    34.024390
+bp_800    0.315754  ...    33.902439
+
+[10 rows x 4 columns]
+latex: 
+ \begin{tabular}{lrrrr}
+\toprule
+{} &  Tempo (s) &  Largura de banda Inicial &  Largura de banda final &  Redução (\%) \\
+\midrule
+arc130  &   0.058474 &                       125 &                     102 &    18.400000 \\
+bp\_0    &   0.268857 &                       820 &                     420 &    48.780488 \\
+bp\_1000 &   0.353051 &                       820 &                     479 &    41.585366 \\
+bp\_1200 &   0.394193 &                       820 &                     549 &    33.048780 \\
+bp\_1400 &   0.342148 &                       820 &                     547 &    33.292683 \\
+bp\_1600 &   0.385671 &                       820 &                     539 &    34.268293 \\
+bp\_200  &   0.268264 &                       820 &                     506 &    38.292683 \\
+bp\_400  &   0.303673 &                       820 &                     530 &    35.365854 \\
+bp\_600  &   0.294642 &                       820 &                     541 &    34.024390 \\
+bp\_800  &   0.315754 &                       820 &                     542 &    33.902439 \\
+\bottomrule
+\end{tabular}
+
